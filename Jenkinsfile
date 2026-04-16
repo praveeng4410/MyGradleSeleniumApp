@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         gradle 'gradle'  // Ensure this matches the name configured in Jenkins
-        
+        jdk 'java'
     }
     stages {
         stage('Checkout') {
